@@ -15,10 +15,10 @@ A lightweight and highly customizable React component that replicates the behavi
 import CLink from './components/CLink'; // or wherever the file is located
 
 <CLink
-  to="/home"
+  to="/home" //to the route to want to go when clicked
   className={({ isActive }) =>
-    `mb-2 pl-5 block hover:bg-[#e1e3e6] ${isActive ? "bg-[#e1e3e6]" : ""}`
+    `mb-2 pl-5 block hover:bg-[#e1e3e6] ${isActive ? "bg-[#e1e3e6]" : ""}` //what do you want to do when the route is active
   }
 >
-  Home
+  Home 
 </CLink>
